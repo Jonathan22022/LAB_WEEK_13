@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
+import com.example.test_lab_week_12.R
 
 class DetailsActivity : AppCompatActivity() {
 
