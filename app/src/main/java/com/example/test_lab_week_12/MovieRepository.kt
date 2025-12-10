@@ -24,6 +24,21 @@ class MovieRepository(private val movieService: MovieService, private val movieD
     companion object {
         private const val TAG = "MovieRepository"
     }
+    // fetch movies from the API and save them to the database
+// this function is used at an interval to refresh the list of popular movies
+    suspend fun fetchMoviesFromNetwork() {
+        val movieDao: MovieDao = movieDatabase.movieDao()
+        try {
+            val popularMovies = movieService.getPopularMovies(apiKey)
+            val moviesFetched = popularMovies.results
+            movieDao.addMovies(moviesFetched)
+        } catch (exception: Exception) {
+            Log.d(
+                "MovieRepository",
+                "An error occurred: ${exception.message}"
+            )
+        }
+    }
 
     fun fetchMovies(): Flow<List<Movie>> {
         return flow {
