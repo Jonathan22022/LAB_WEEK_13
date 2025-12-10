@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.test_lab_week_12.app-mergeDebugResources-38:/values-hy/values-hy.xml",
+            "outputFile": "com.example.test_lab_week_12.app-mergeDebugResources-41:/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.13\\transforms\\4975f6a1adb5e5d9a91024095fe1f172\\transformed\\material-1.13.0\\res\\values-hy\\values-hy.xml",

@@ -1,0 +1,6 @@
+com.example.test_lab_week_12.test.app-tracing-1.2.0-0 C:\Users\ASUS\.gradle\caches\8.13\transforms\0caee46f103eeb71e0a4573012868d03\transformed\tracing-1.2.0\res
+com.example.test_lab_week_12.test.app-core-1.7.0-1 C:\Users\ASUS\.gradle\caches\8.13\transforms\11541326e0f054f1a9d52b654f999b69\transformed\core-1.7.0\res
+com.example.test_lab_week_12.test.app-androidTest-2 C:\Users\ASUS\AndroidStudioProjects\LAB_WEEK_12\app\build\generated\res\resValues\androidTest\debug
+com.example.test_lab_week_12.test.app-mergeDebugAndroidTestResources-3 C:\Users\ASUS\AndroidStudioProjects\LAB_WEEK_12\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.test_lab_week_12.test.app-mergeDebugAndroidTestResources-4 C:\Users\ASUS\AndroidStudioProjects\LAB_WEEK_12\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.test_lab_week_12.test.app-debugAndroidTest-5 C:\Users\ASUS\AndroidStudioProjects\LAB_WEEK_12\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

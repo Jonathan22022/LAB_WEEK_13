@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.test_lab_week_12.app-mergeDebugResources-38:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.test_lab_week_12.app-mergeDebugResources-41:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.13\\transforms\\4975f6a1adb5e5d9a91024095fe1f172\\transformed\\material-1.13.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\LAB_WEEK_12\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\ASUS\\AndroidStudioProjects\\LAB_WEEK_13\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

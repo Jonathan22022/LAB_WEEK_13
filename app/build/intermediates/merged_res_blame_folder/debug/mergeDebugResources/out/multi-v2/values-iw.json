@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.test_lab_week_12.app-mergeDebugResources-38:/values-iw/values-iw.xml",
+            "outputFile": "com.example.test_lab_week_12.app-mergeDebugResources-41:/values-iw/values-iw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ASUS\\.gradle\\caches\\8.13\\transforms\\9662eb68fb659943dc76d9e394559c5d\\transformed\\core-1.17.0\\res\\values-iw\\values-iw.xml",
