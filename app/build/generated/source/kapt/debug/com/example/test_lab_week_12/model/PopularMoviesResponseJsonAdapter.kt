@@ -15,7 +15,6 @@ import java.lang.NullPointerException
 import kotlin.Int
 import kotlin.String
 import kotlin.Suppress
-import kotlin.Unit
 import kotlin.collections.List
 import kotlin.collections.emptySet
 import kotlin.text.buildString
@@ -31,10 +30,10 @@ public class PopularMoviesResponseJsonAdapter(
       moshi.adapter(Types.newParameterizedType(List::class.java, Movie::class.java), emptySet(),
       "results")
 
-  public override fun toString(): String = buildString(43) {
+  override fun toString(): String = buildString(43) {
       append("GeneratedJsonAdapter(").append("PopularMoviesResponse").append(')') }
 
-  public override fun fromJson(reader: JsonReader): PopularMoviesResponse {
+  override fun fromJson(reader: JsonReader): PopularMoviesResponse {
     var page: Int? = null
     var results: List<Movie>? = null
     reader.beginObject()
@@ -57,7 +56,7 @@ public class PopularMoviesResponseJsonAdapter(
     )
   }
 
-  public override fun toJson(writer: JsonWriter, value_: PopularMoviesResponse?): Unit {
+  override fun toJson(writer: JsonWriter, value_: PopularMoviesResponse?) {
     if (value_ == null) {
       throw NullPointerException("value_ was null! Wrap in .nullSafe() to write nullable values.")
     }

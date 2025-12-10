@@ -17,7 +17,6 @@ import kotlin.Float
 import kotlin.Int
 import kotlin.String
 import kotlin.Suppress
-import kotlin.Unit
 import kotlin.collections.emptySet
 import kotlin.jvm.Volatile
 import kotlin.text.buildString
@@ -43,10 +42,10 @@ public class MovieJsonAdapter(
   @Volatile
   private var constructorRef: Constructor<Movie>? = null
 
-  public override fun toString(): String = buildString(27) {
+  override fun toString(): String = buildString(27) {
       append("GeneratedJsonAdapter(").append("Movie").append(')') }
 
-  public override fun fromJson(reader: JsonReader): Movie {
+  override fun fromJson(reader: JsonReader): Movie {
     var adult: Boolean? = false
     var backdrop_path: String? = null
     var id: Int? = 0
@@ -190,7 +189,7 @@ public class MovieJsonAdapter(
     }
   }
 
-  public override fun toJson(writer: JsonWriter, value_: Movie?): Unit {
+  override fun toJson(writer: JsonWriter, value_: Movie?) {
     if (value_ == null) {
       throw NullPointerException("value_ was null! Wrap in .nullSafe() to write nullable values.")
     }
